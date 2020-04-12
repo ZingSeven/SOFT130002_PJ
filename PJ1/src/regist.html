@@ -1,0 +1,34 @@
+<!DOCTYPE html>
+<html lang="zh">
+<head>
+    <meta charset="UTF-8">
+    <link type="text/css" rel="styleSheet" href="../CSS/reset.css">
+    <link type="text/css" rel="styleSheet" href="../CSS/regist.css">
+	<style>
+	body {
+        background-image:url("../images/background.jpg");
+		background-size:100%;
+    }
+	</style>
+	<title>regist</title>
+</head>
+<body>
+<header>
+
+</header>
+<section>
+    <form>
+        <p>Username<br>
+            <input type="text" name="username" pattern="^[a-zA-Z0-9_]+$" required></p>
+        <p>E-mail<br>
+            <input type="text" name="mail" pattern="^[a-zA-Z0-9_]+$" required></p>
+        <p>Password<br>
+            <input type="password" name="password" pattern="^[a-zA-Z0-9]{9,}$" required></p>
+        <p>Confirm your password<br>
+            <input type="password" name="confirmPassword" pattern="^[a-zA-Z0-9]{9,}$" required></p>
+        <input type="submit" value="注册">
+    </form>
+</section>
+<footer>Copyright © 2020 All Rights Reserved  19302010039</footer>
+</body>
+</html>

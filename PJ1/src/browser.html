@@ -1,0 +1,139 @@
+<!DOCTYPE html>
+<html lang="zh">
+<head>
+    <meta charset="UTF-8">
+	<title>Browser</title>
+	<link type="text/css" rel="styleSheet" href="../CSS/reset.css">
+	<link type="text/css" rel="styleSheet" href="../CSS/browser.css">
+	
+
+</head>
+<body>
+    <header>
+	    <a href="../index.html" >HOME</a>
+		<a href="browser.html" id="visiting">BROWSE</a>
+		<a href="search.html">SEARCH</a>
+		<div class="dropdown">
+		    <span>My Account</span>
+			<div class="dropdown-content">
+			    <a href="upload.html">Upload</a>
+			    <a href="my_photo.html">My Photo</a>
+			    <a href="my_favor.html">My Favor</a>
+			    <a href="login.html">Log In</a>
+			</div>
+		</div>
+	</header>
+	
+    <aside>
+        <div id="search">
+            <p id="aside-title">Search by title</p>
+            <input type="text">
+			<a href="#"><img src="../images/search.jpg" height="20" width="20"></a>
+        </div>
+        <div id="Hot">
+            <p id="aside-title">Hot Content</p>
+            <ul>
+                <li><a>Scenery</a></li>
+                <li><a>City</a></li>
+                <li><a>People</a></li>
+                <li><a>Animal</a></li>
+                <li><a>Building</a></li>
+                <li><a>Wonder</a></li>
+            </ul>
+        </div>
+        <div id="Hot">
+            <p id="aside-title">Hot Country</p>
+            <ul>
+                <li><a>China</a></li>
+                <li><a>Italy</a></li>
+                <li><a>Japan</a></li>
+                <li><a>America</a></li>
+            </ul>
+        </div>
+        <div id="Hot">
+            <p id="aside-title">Hot City</p>
+            <ul>
+                <li><a>Shanghai</a></li>
+                <li><a>Paris</a></li>
+                <li><a>Tokyo</a></li>
+                <li><a>New York</a></li>
+            </ul>
+        </div>
+    </aside>
+	<section id="filter">
+	<p>Filter</p>
+	<div>
+        <form>
+            <select name="content">
+                <option>Filter by content</option>
+                <option>Scenery</option>
+                <option>City</option>
+                <option>People</option>
+                <option>Animal</option>
+                <option>Building</option>
+                <option>Wonder</option>
+            </select>
+            <select  id="country">
+                <option value="0">Filter by country</option>
+                <option value="China">China</option>
+                <option value="Italy">Italy</option>
+                <option value="Japan">Japan</option>
+                <option value="America">America</option>
+            </select>
+            <select  id="city">
+                <option value="0">Filter by city</option>
+            </select>
+            <input type="submit" value="Filter">
+        </form>
+    </div>
+    <div id="photo">
+        <a href="details.html">
+            <div>
+                <img src="../travel-images/normal/medium/6119130918.jpg">
+            </div>
+        </a>
+        <a href="details.html">
+            <div>
+                <img src="../travel-images/normal/medium/6119143988.jpg">
+            </div>
+        </a>
+        <a href="details.html">
+            <div>
+                <img src="../travel-images/normal/medium/6119127716.jpg">
+            </div>
+        </a>
+        <a href="details.html">
+            <div>
+                <img src="../travel-images/normal/medium/8711645510.jpg">
+            </div>
+        </a>
+		<a href="details.html">
+            <div>
+                <img src="../travel-images/normal/medium/8646991554.jpg">
+            </div>
+        </a>
+		<a href="details.html">
+            <div>
+                <img src="../travel-images/normal/medium/9494282329.jpg">
+            </div>
+        </a>
+		
+    </div>
+    <div id="page">
+        <a><</a>
+        <a>1</a>
+        <a>2</a>
+        <a>3</a>
+        <a>4</a>
+        <a>5</a>
+        <a>></a>
+    </div>
+	</section>
+	
+    <div>
+        Copyright © 2020 All Rights Reserved 19302010039
+    </div>
+	
+	<a id="top" href="browser.html"><img src="../images/top.jpg" height="50" width="50"></a>
+    <a id="refresh" onclick="alert('已刷新')"><img src="../images/refresh.jpg" height="50" width="50"/></a>
+</body>
